@@ -11,6 +11,11 @@ header {
   width: 100%;
 }
 
+header nav{
+  display: flex;
+  align-items:end;
+  justify-content:right;
+}
 nav {
     align-items:flex-end
 }
@@ -59,7 +64,8 @@ img {
 }
 
 .imagen-bienvenidos img {
-  width: 100px;
+  width: 500px;
+  height: 250px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -70,7 +76,7 @@ img {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: 10px 0 10px 0;
+  margin: 10px
 }
 
 .azul {
@@ -84,8 +90,16 @@ img {
   background-color: rgba(42, 210, 216, 0.267);
 }
 .azul-sk {
-    background-color: rgb(212, 255, 255);
+    background-color: rgb(220, 236, 234);
 }
 .imagenes-sk img {
     border-radius: 50px;
+    width: 250px;
+    margin-top: 10px;
 }
+
+.container-fluid {
+  margin-right: 20px;
+  margin-left: 20px ;
+}
+
